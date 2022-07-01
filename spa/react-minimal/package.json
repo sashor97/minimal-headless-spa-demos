@@ -7,10 +7,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
     "wouter": "^2.8.0-alpha.2"
   },
   "scripts": {
-    "start": "NODE_ENV=production && react-scripts start",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "build": "react-scripts build",
     "eject": "react-scripts eject",

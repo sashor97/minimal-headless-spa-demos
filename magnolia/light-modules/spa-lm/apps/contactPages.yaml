@@ -1,0 +1,15 @@
+!content-type:contactPages
+name: contactPages
+label: Contact pages
+icon: icon-content-app
+
+subApps:
+  detail:
+    label: Contact page Detail
+    form:
+      properties:
+        page:
+          $type: pageLinkField
+          chooser:
+            workbenchChooser:
+              appName: pages-app

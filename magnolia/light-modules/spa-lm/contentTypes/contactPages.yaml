@@ -1,0 +1,12 @@
+datasource:
+  workspace: contactPages
+  autoCreate: true
+
+model:
+  properties:
+    page:
+      label: Contact Page
+    image:
+      type: asset
+      label: Image
+

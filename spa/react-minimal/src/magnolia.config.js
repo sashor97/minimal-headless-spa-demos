@@ -7,6 +7,8 @@ import Expander from './components/Expander';
 import List from './components/List';
 import Item from './components/Item';
 import Personalization from './pages/Personalization';
+import ImageGallerySlider from './components/ImageGallerySlider';
+
 
 const config = {
     'componentMappings':{
@@ -19,7 +21,9 @@ const config = {
         'spa-lm:components/paragraph': Paragraph,
         'spa-lm:components/expander': Expander,
         'spa-lm:components/list': List,
-        'spa-lm:components/listItem': Item
+        'spa-lm:components/listItem': Item,
+        'spa-lm:components/imageGallerySlider': ImageGallerySlider
+
     }
 };
 

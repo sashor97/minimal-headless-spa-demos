@@ -1,0 +1,21 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: contactPages
+depth: 10
+bypassWorkspaceAcls: true
+includeSystemProperties: true
+nodeTypes:
+  - mgnl:content
+
+references:
+  - name: assetReference
+    propertyName: image
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
+      assetRenditions:
+        - 960x720
+        - 480x360
+  - name: pageReference
+    propertyName: page
+    referenceResolver:
+      class: info.magnolia.rest.reference.jcr.JcrReferenceResolverDefinition
+      targetWorkspace: website

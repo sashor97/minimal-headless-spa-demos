@@ -22,6 +22,8 @@ areas:
         id: spa-lm:components/expander
       List:
         id: spa-lm:components/list
+      ImageGallerySlider:
+        id: spa-lm:components/imageGallerySlider
         
   extras:
     title: Extras Area
